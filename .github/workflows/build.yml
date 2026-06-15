@@ -11,8 +11,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
 
       - name: Setup Expo & EAS
         uses: expo/expo-github-action@v8
@@ -23,6 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Generate lock file
+        run: npm install --package-lock-only
 
       - name: Build APK
         run: eas build -p android --profile preview --non-interactive
