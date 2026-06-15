@@ -5,6 +5,9 @@
     "version": "1.0.0",
     "sdkVersion": "51.0.0",
     "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
     "android": {
       "package": "com.khridoapp.mithai",
       "versionCode": 1
