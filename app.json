@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "KhridoApp",
+    "slug": "khridoapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.khridoapp.mithai",
+      "versionCode": 1
+    },
+    "plugins": [
+      "@react-native-async-storage/async-storage"
+    ]
+  }
+}
