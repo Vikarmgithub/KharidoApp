@@ -3,10 +3,14 @@
     "name": "KhridoApp",
     "slug": "khridoapp",
     "version": "1.0.0",
+    "sdkVersion": "51.0.0",
     "orientation": "portrait",
     "android": {
       "package": "com.khridoapp.mithai",
-      "versionCode": 1
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "buildToolsVersion": "34.0.0"
     },
     "extra": {
       "eas": {
