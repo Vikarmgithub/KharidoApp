@@ -8,15 +8,10 @@
       "package": "com.khridoapp.mithai",
       "versionCode": 1
     },
-    {
-  "expo": {
-    "name": "KhridoApp",
-    "slug": "khridoapp",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "android": {
-      "package": "com.khridoapp.mithai",
-      "versionCode": 1
+    "extra": {
+      "eas": {
+        "projectId": "5ccf8e74-ad87-4c1c-a108-f80fd96b5edc"
+      }
     }
   }
-  }
+}
